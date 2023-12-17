@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a, ul {
+    display: flex;
+    gap: 35px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 14px;
+    background-color: black;
+}
+
+a.link1:hover, a.link1:active {font-size:150%;}
+a.link2:hover, a.link2:active {color: gold;}
+a.link3:hover, a.link2:active {color: silver;}
+a.link4:hover, a.link2:active {color: lightseagreen;}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 25px;
+}
+
+
