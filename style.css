@@ -97,4 +97,31 @@ address {
     font-size: 20px;
 }
 
+.shop-gold, .gold-shop2, .gold-shop3, .gold-shop4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    margin: 20px;
+    
+}
+
+.gold1, .gold2, .gold3, .gold4 {
+    margin: 20px;
+    border: 2px solid navy;
+}
+
+.button-gold {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+
 
