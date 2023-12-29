@@ -121,6 +121,16 @@ address {
     margin: 5px;
 }
 
+.button-gold1 {
+    color: purple;
+    background-color: gold;
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+
 .text-center {
     display: flex;
     justify-content: center;
