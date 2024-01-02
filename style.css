@@ -90,89 +90,6 @@ address {
     margin-bottom: 50px;
 }
 
-.footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-    background-color: darkblue;
-    margin-top: 15px;
-    padding: 10px;
-    font-size: 20px;
-}
-
-.shop-gold, .gold-shop2, .gold-shop3, .gold-shop4 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border: 2px solid black;
-    margin: 20px;
-    
-}
-
-.gold1, .gold2, .gold3, .gold4 {
-    margin: 20px;
-    border: 2px solid navy;
-}
-
-.button-gold {
-    display: flex;
-    justify-content: center;
-    margin: 5px;
-}
-
-.button-gold1 {
-    color: purple;
-    background-color: gold;
-    border: 2px solid black;
-    border-radius: 7px;
-    width: 80px;
-    height: 30px;
-    cursor: pointer;
-}
-
-.text-center {
-    display: flex;
-    justify-content: center;
-    margin: 15px;
-}
-
-.Silver-shop {
-    display: flex;
-    justify-content: space-around;
-    background-color: black;
-    border-radius: 14px;
-    margin: 15px;
-}
-
-.flower {
-    display: flex;
-    justify-content: center;
-    color: silver;
-    margin: 15px;
-}
-
-.silver-flower {
-    border: 1px solid white;
-}
-
-.silver-flower1 {
-    border: 2px solid navy;
-    border-radius: 15px;
-}
-
-
-.buy-link {
-    color: white;
-    padding: 5px;
-    margin-right: 150px;
-}
-
-.buy-link:hover {
-    background-color: silver;
-    color: blue;
-}
-
 .main-1 {
     margin: 0;
 	padding: 0;
@@ -271,3 +188,85 @@ input {
 #chk:checked ~ .signup label{
 	transform: scale(.6);
 }
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    background-color: darkblue;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    color: purple;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 14px;
+    margin: 15px;
+}
+
+.item-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+}
+
+.flower {   
+    font-size: 18px;
+    font-style: italic;
+    color: silver;
+}
+
+.diamond {
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+}
+
+.image-f {
+    border: 2px solid navy;
+    border-radius: 15px;
+    width: 80%;
+    height: 80%;
+}
+
+.image-d {
+    border: 3px solid rgb(21, 94, 21);
+    border-radius: 15px;
+    width: 80%;
+    height: 80%;
+}
+
+
+.btn {
+    color: black;
+    padding: 5px;
+    width: 30%;
+    height: 25px;
+}
+
+.image-gallery-gold {
+    display: flex;
+    justify-content: space-around;
+    border: 4px solid gold;
+    background-color: purple;
+    border-radius: 14px;
+    margin: 15px;
+}
+
+
+
