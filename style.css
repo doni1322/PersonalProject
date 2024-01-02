@@ -268,5 +268,22 @@ input {
     margin: 15px;
 }
 
+.Citations {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+    border-radius: 30px;
+    margin: 10px;
+}
 
+.model {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
+.image-cit {
+    border: 2px solid black;
+    border-radius: 120px;
+    margin: 10px;
+}
