@@ -29,37 +29,46 @@ a.link4:hover, a.link2:active {color: lightseagreen;}
 .head {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     background-color: black;
     color: white;
     border-radius: 20px;
     margin: 10px;
-    flex-wrap: wrap;
     padding: 100px;
 }
 
 .head-1 {
-    display: flex;
+    dispaly: flex;
+    flex-wrap: wrap;
+}
+
+.head-2 {
+    dispaly: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .image {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     border: 2px solid white;
     border-radius: 20px;
-    width: 400px;
-    height: 200px;
-    margin-left: -450px;
+    width: 80%;
+    height: 80%;
+    margin-top: 10px;
 }
 
  .first-button {
-  width: 80px;
-  height: 30px;
-  color: white;
-  background-color: green;
-  border: 2px solid purple;
-  border-radius: 6px;
-  cursor: pointer;
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: green;
+    border: 2px solid purple;
+    border-radius: 6px;
+    cursor: pointer;
  }
 
  .heading-2 {
