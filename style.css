@@ -4,7 +4,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 a, ul {
     display: flex;
     gap: 35px;
@@ -19,6 +18,7 @@ a, ul {
     align-items: center;
     padding: 14px;
     background-color: black;
+    flex-wrap: wrap;
 }
 
 a.link1:hover, a.link1:active {font-size:150%;}
@@ -26,21 +26,31 @@ a.link2:hover, a.link2:active {color: gold;}
 a.link3:hover, a.link2:active {color: silver;}
 a.link4:hover, a.link2:active {color: lightseagreen;}
 
-.image {
-    float: right;
-    width: 280px;
-    height: 190px;
-    padding-right: 700px;
-}
-
- .head {
-    padding-left: 330px;
-    padding-top: 70px;
-    padding-bottom: 80px;
+.head {
+    display: flex;
+    justify-content: space-around;
     background-color: black;
     color: white;
+    border-radius: 20px;
+    margin: 10px;
+    flex-wrap: wrap;
+    padding: 100px;
+}
 
- }
+.head-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.image {
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    margin-left: -450px;
+}
 
  .first-button {
   width: 80px;
@@ -56,25 +66,9 @@ a.link4:hover, a.link2:active {color: lightseagreen;}
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    flex-wrap: wrap;
  }
  
-.gallery {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 30px;
-}
-
-.img-gallery {
-    width: 200px;
-    border-radius: 15px;
-}
-
-.button-gallery {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10px;
-}
 
 address {
     margin-left: 20px;
@@ -82,12 +76,15 @@ address {
     font-style: italic;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .google-maps{
-    margin-top: 50px;
-    margin-left: 510px;
-    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+    margin-bottom: 10px;
 }
 
 .main-1 {
@@ -99,6 +96,7 @@ address {
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
 	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    flex-wrap: wrap;
 }
 
 .main {
@@ -130,6 +128,7 @@ label {
 	font-weight: bold;
 	cursor: pointer;
 	transition: .5s ease-in-out;
+    flex-wrap: wrap;
 }
 
 input {
@@ -143,6 +142,7 @@ input {
 	border: none;
 	outline: none;
 	border-radius: 5px;
+    flex-wrap: wrap;
 }
 
 .button-form {
@@ -161,6 +161,7 @@ input {
 	border-radius: 5px;
 	transition: .2s ease-in;
 	cursor: pointer;
+    flex-wrap: wrap;
 }
 
 .button-form:hover {
@@ -197,6 +198,7 @@ input {
     margin-top: 15px;
     padding: 10px;
     font-size: 20px;
+    flex-wrap: wrap;
 }
 
 
@@ -206,6 +208,7 @@ input {
     justify-content: center;
     margin: 15px;
     color: purple;
+    flex-wrap: wrap;
 }
 
 .image-gallery {
@@ -214,6 +217,7 @@ input {
     background-color: black;
     border-radius: 14px;
     margin: 15px;
+    flex-wrap: wrap;
 }
 
 .item-box {
@@ -223,6 +227,7 @@ input {
     align-items: center;
     width: 300px;
     height: 350px;
+    flex-wrap: wrap;
 }
 
 .flower {   
@@ -266,6 +271,7 @@ input {
     background-color: purple;
     border-radius: 14px;
     margin: 15px;
+    flex-wrap: wrap;
 }
 
 .Citations {
@@ -274,12 +280,15 @@ input {
     background-color: lightblue;
     border-radius: 30px;
     margin: 10px;
+    flex-wrap: wrap;
 }
 
 .model {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
+    
 }
 
 .image-cit {
